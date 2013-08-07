@@ -32,6 +32,11 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+group :production do
+  gem 'rails_12factor'
+  gem 'pg'
+end
+
 gem 'devise', '3.0.0'
 
 gem "twitter-bootstrap-rails"
